@@ -1,0 +1,88 @@
+body {
+  background: #030e3c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.unesi-radionicu {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boja-siva {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.boja-bela {
+  font-size: 25px;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #5a76e2;
+  background: #1a3396;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 20px;
+  color: white;
+  background: #5a76e2;
+  border: 2px solid #1a3396;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+button:hover {
+  background: #1a3396;
+}
+
+.glavni-deo h1 {
+  font-size: 45px;
+  /* text-align: center; */
+}
+
+/* .glavni-deo p {
+  text-align: center;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.pitanja {
+  margin-left: 40px;
+}
+
+.pitanje {
+  background: #4564e4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+}

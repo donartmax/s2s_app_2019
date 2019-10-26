@@ -17,6 +17,50 @@
         <input type="text">
         <button>Startuj</button>
     </div>
+    <div class="glavni-deo">
+        <h1 class="text-center">S2S comments</h1>
+        <p class="boja-siva text-center">WebApp Workshop</p>
+
+        <div class="pitanja">
+            <p class="boja-bela">Radionice: <span id="radionica"></span> </p>
+            <p class="boja-bela">Ime: <span id="ime"></span></p>
+
+            <ul>
+               
+            </ul>
+        </div>
+
+        <div class="pitanje">
+            <input type="text">
+            <button>Pošalji</button>
+        </div>
+    </div>
+
+
+    <!-- Javascript biblioteke za upravljanje firebase-om -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+
+   <!-- konfiguracija za firebase  -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyA6GRdXogqR4vjHFcCdEhHmQodW3prVL8Q",
+            authDomain: "s2saplikacija.firebaseapp.com",
+            databaseURL: "https://s2saplikacija.firebaseio.com",
+            projectId: "s2saplikacija",
+            storageBucket: "s2saplikacija.appspot.com",
+            messagingSenderId: "251636888905",
+            appId: "1:251636888905:web:7f215732d82aa98cc59698"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- skripta za startovanje radionice -->
+    <script src="startovanje.js">
+    </script>
 </body>
 
 </html>

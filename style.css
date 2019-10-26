@@ -53,6 +53,16 @@ button:hover {
   background: #1a3396;
 }
 
+
+.glavni-deo {
+  display: none;
+}
+
+
+.glavni-deo.pokrenuto{
+  display: block;
+}
+
 .glavni-deo h1 {
   font-size: 45px;
   /* text-align: center; */
